@@ -28,4 +28,3 @@ if x == 2:
 elif x != 3:
     ##wrong 3
     print("You weren't correct. Now, Sir Issac Newton cant remember his laws and gravity was never discovered")
-    print("This 'Game' Was made by levi ley in python it was a science project for Dr.O")
