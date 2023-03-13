@@ -14,20 +14,22 @@ if path.lower().strip() == "house":
     elif y != 1:
         print("Nope sorry, but he needs help the next room over")
     y = int(input("He is looking at his pendulum clock and is thinking 'why is my clock going back after going foward?'"))
+   
     print(y)
+  
     if y == 3:
         print("He thanks you for helping him a bit. In the next room over, He decides to play a game of darts...")
     if y != 3:
         print("He says 'I dont think thats right.' You feel as thought if you get the next law wrong its all over.")
     y = int(input("As you go over into the room, he seems to be throwing the darts at different speeds and with differnt parts of his hand, writing down the results, he seems to be trying to remember a law. Which one is he thinking about?"))
+    print(y)
     if y == 2:
         print("He starts to remember everything. His laws his memories and goes on to write about them and discover gravity again.")
     if y != 2:
-        print("You feel the earth start to shake beneath you as things start being thrown around floating and the earth starts crumbling in itself and everybody on earth eventually dies to the vacuum of space ")    
+        print("You feel the earth start to shake beneath you as things start being thrown around floating and the earth starts crumbling in itself and everybody on earth eventually dies to the vacuum of space ")   
 else:
-##second path
     x = int(input("He had a car sitting in his yard that doesnt move. What law does he start to remember?"))
-print(x)
+print(x) ## second path
 if x == 1:  
     print("Correct, now he needs help over on the road!")
 ## if its incorrect
